@@ -3,6 +3,8 @@ Creates a Language Translator Service between French and English.
 """
 
 import os
+from deep_translator import MyMemoryTranslator
+
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from dotenv import load_dotenv
