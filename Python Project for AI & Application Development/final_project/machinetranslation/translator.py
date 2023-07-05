@@ -43,3 +43,27 @@ def french_to_english(french_text):
     ).get_result()
     english_text = english_translation.get("translations")[0].get("translation")
     return english_text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
